@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+   
+   Final Project
+   
+   Filename: combinedBats.xml
+   Author: Chris Benzola
+   Date:   04/28/2019
+-->
+
+
+<?xml-stylesheet type="text/xsl" href="../xsl/combinedBats.xsl" ?>
+<met:baseballBats xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+             xmlns:met="http://example.com/combinedBats/ns"	 
+                  xsi:SchemaLocation="file:///C:/Users/cbenz/OneDrive/Desktop/XML_Final/schemas/combinedBatsSchema.xsd"> <!-- Inclusion of combined bat schema -->
+    
+	<!-- Metal Bat XML & Namespace -->
+	<met:metalBats>
+    <met:bat>
+    <met:batImage>
+        ../images/baseball1.jpg
+    </met:batImage>
+		<met:batBrand>Easton</met:batBrand>
+    <met:batName>Easton Stealth</met:batName>
+        <met:description>Massive high-performance hitting area, made possible by patented IMX (Integrated Matrix Technology) 
+            optimizing composite design, materials and process for maximum performance. 
+            Flex-rated 75 handle provides increased handle flex through Easton's 
+            patented Opti-Flex CNT composite handle technology. </met:description>
+    <met:batID>EAST4562</met:batID>
+    <met:batPrice>259.95</met:batPrice>
+    </met:bat>
+	
+	 <met:bat>
+    <met:batImage>
+        ../images/baseball2.jpg
+    </met:batImage>
+		 <met:batBrand>TPX</met:batBrand>
+    <met:batName>TPX Stealth</met:batName>
+        <met:description>Louisville Slugger continues to show that they are firm believers in the one piece bat by producing this TPX EXOGRID 2. The one piece design of this stick allows for stiffness in the bat making this the type of bat that a power hitter would use.</met:description>
+    <met:batID>AGHEST72</met:batID>
+    <met:batPrice>299.95</met:batPrice>
+    </met:bat>
+	
+	<met:bat>
+    <met:batImage>
+        ../images/baseball3.jpg
+    </met:batImage>
+		<met:batBrand>DeMarini</met:batBrand>
+    <met:batName>DeMarini Gattaca</met:batName>
+        <met:description>We set out to make a BBCOR bat that creates more distance and helps you hit at the optimal launch angle more consistently. We accomplished that with Gattaca, our most technologically advanced bat ever, and the first ever bat with separate designs for left and right-handed hitters. </met:description>
+    <met:batID>DEMPOI6F</met:batID>
+    <met:batPrice>399.95</met:batPrice>
+    </met:bat>
+	
+	<met:bat>
+    <met:batImage>
+        ../images/baseball4.jpg
+    </met:batImage>
+		<met:batBrand>Marucci</met:batBrand>
+    <met:batName>Marucci CAT8</met:batName>
+        <met:description>The CAT8 -10 is a USSSA certified, one-piece alloy bat built with AZ105 super strength aluminum alloy meaning thinner walls, higher response rate, and better durability. The precision-balanced barrel features a ring-free multi-variable wall design that creates an expanded sweet spot,</met:description>
+    <met:batID>2145TH</met:batID>
+    <met:batPrice>229.99</met:batPrice>
+    </met:bat>
+	
+	<met:bat>
+    <met:batImage>
+        ../images/baseball5.jpg
+    </met:batImage>
+		<met:batBrand>DeMarini</met:batBrand>
+    <met:batName>DeMarini Voodoo</met:batName>
+        <met:description>This end loaded Voodoo Insane BBCOR Bat brings the boom with a massive barrel size to drive the ball to the wall. With an all-new X14 Aluminum Alloy Barrel, this monster is hotter than ever! The X14 Aluminum Alloy allowed DeMarini to distribute the weight in different ways than previous years with the Voodoo. </met:description>
+    <met:batID>VOOP14GH</met:batID>
+    <met:batPrice>299.99</met:batPrice>
+    </met:bat>
+	
+	<met:bat>
+    <met:batImage>
+        ../images/baseball6.jpg
+    </met:batImage>
+		<met:batBrand>Louisville</met:batBrand>
+    <met:batName>Louisville Slugger</met:batName>
+        <met:description>Developed to meet the highest demands of elite players, the Louisville Slugger® team introduces the 2019 Meta Prime® BBCOR Bat to be the gold standard. Constructed with a three-piece design and newly developed connection system to maximize performance and sound off the barrel, the Meta Prime® is engineered for the game’s best players. </met:description>
+    <met:batID>VI09PODF</met:batID>
+    <met:batPrice>500.00</met:batPrice>
+    </met:bat>
+		</met:metalBats>
+	<!-- End of Metal Bat XML -->
+	
+	<!-- Inclusion of woodBats.xml & wood bat schema/namespace -->
+	<woo:woodBats xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+				  xmlns:woo="http://example.com/combinedBats/ns"	
+          xsi:SchemaLocation="file:///C:/Users/cbenz/OneDrive/Desktop/XML_Final/schemas/woodSchema.xsd">
+	
+    <woo:bat>
+    <woo:batImage>
+        ../images/wood1.jpg
+    </woo:batImage>
+		<woo:batBrand>Easton</woo:batBrand>
+    <woo:batName>Mako Ash Easton Wood Bat</woo:batName>
+        <woo:description>Pro Grade Ash -Guaranteed -3 weight differential -15/16" tapered handle -Cupped end WOOD BAT POLICY: WOOD BATS CARRY NO WARRANTY OR IMPLIED GUARANTEE AGAINST BREAKAGE. </woo:description>
+    <woo:batID>MAK976G</woo:batID>
+    <woo:batPrice>35.90</woo:batPrice>
+    </woo:bat>
+	
+	 <woo:bat>
+    <woo:batImage>
+        ../images/wood2.jpg
+    </woo:batImage>
+		 <woo:batBrand>Louisville</woo:batBrand>
+    <woo:batName>Louisville Series 3 Ash Bat</woo:batName>
+        <woo:description>Louisville Slugger's adult wood bats are pulled from their original production line for some minor flaw that will not affect the bat's performance. </woo:description>
+    <woo:batID>WTLW3AMIXB16</woo:batID>
+    <woo:batPrice>29.95</woo:batPrice>
+    </woo:bat>
+	
+	<woo:bat>
+    <woo:batImage>
+        ../images/wood3.jpg
+    </woo:batImage>
+		<woo:batBrand>Marucci</woo:batBrand>
+    <woo:batName>Marucci Lindy Wood Bat </woo:batName>
+        <woo:description>The Marucci LINDY12 Pro Model is the ultimate contact hitter's wood bat. Inspired by Marucci partner Francisco Lindor.</woo:description>
+    <woo:batID>DEMPOI6F</woo:batID>
+    <woo:batPrice>399.95</woo:batPrice>
+    </woo:bat>
+	
+	<woo:bat>
+    <woo:batImage>
+        ../images/wood4.jpg
+    </woo:batImage>
+		<woo:batBrand>Sam Bats</woo:batBrand>
+    <woo:batName>Sam Bats PS2 Maple</woo:batName>
+        <woo:description>The SAM BAT PS2 boasts their thinnest handle that flares moderately to the knob to give players a firm grip.  The distinctive regular barrel has a long taper through the handle, which helps to extend the sweet spot.</woo:description>
+    <woo:batID>4737</woo:batID>
+    <woo:batPrice>89.95</woo:batPrice>
+    </woo:bat>
+	
+	<woo:bat>
+    <woo:batImage>
+        ../images/wood5.jpg
+    </woo:batImage>
+		<woo:batBrand>Marucci</woo:batBrand>
+    <woo:batName>Marucci AP5 Pro Model </woo:batName>
+        <woo:description>Professionally inspired by Marucci® Player Advisory Board Member, Albert Pujols, for the youth baseball player, the AP5 Pro Model Bat is bone-rubbed for maximum wood density and durability. </woo:description>
+    <woo:batID>AP5YB</woo:batID>
+    <woo:batPrice>79.99</woo:batPrice>
+    </woo:bat>
+	
+	<woo:bat>
+    <woo:batImage>
+        ../images/wood6.jpg
+    </woo:batImage>
+		<woo:batBrand>Rawlings</woo:batBrand>
+    <woo:batName>Rawlings Wood Bat</woo:batName>
+        <woo:description>Barrel: 2 1/2" - Handle: 31/32" - Length: 34" - Level: Adult - Spec: Center line on end of barrel is blank, ideal for signatures.</woo:description>
+    <woo:batID>232APSIG-34</woo:batID>
+    <woo:batPrice>49.95</woo:batPrice>
+    </woo:bat>
+		</woo:woodBats>
+	<!-- End of Wood Bat XML -->
+</met:baseballBats>

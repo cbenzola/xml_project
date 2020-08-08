@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document For Navigation Bar */
+
+
+	/*
+   
+   Final Project
+   
+   Filename: header.css
+   Author: Chris Benzola
+   Date:   04/28/2019
+*/
+	
+	
+	#logo{
+		margin: 0 auto !important;
+	}
+	
+	.header-container{
+		position: sticky;
+		top:0px;
+		left: 0px;
+		right:0px;
+		z-index: 10000000;
+		
+		
+	}
+	
+	header{
+		max-width: 1000px;
+		margin: auto;
+		
+	}
+	
+header.top-header{
+	
+	
+		display: flex;
+		width: 100%;
+	height:90px;
+		margin-bottom: 0px;
+		z-index: 1000001;
+		position: relative;
+	
+	}
+	
+	.top-header::after{
+		display: flex;
+	}
+	
+	header.leftLogo{
+		-webkit-box-flex:1;
+		-ms-flex: 1 0 247px;
+		flex: 1 0 247px;
+		display: inline-block;
+		
+		float: left;
+	}
+	
+	
+	
+	header.top-header div.leftLogo-img{
+		background-position: -20px;
+		background-size: 350px;
+		background-image: url("image/logo.png");
+			background-repeat: no-repeat;
+		height: 200px;
+		float: left;
+	}
+	
+	header.top-header div.rightLogo-img{
+		height: 200px;
+		background-size: 350px;
+		background-repeat: no-repeat;
+		float:left;
+	}
+	
+	#rightLogo{
+		float:right;
+		position: relative;
+		right:50px;
+		margin-top: 25px;
+		
+	}
+	
+	
+
+
+	

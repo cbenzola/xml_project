@@ -1,0 +1,32 @@
+﻿
+<!--
+   
+   Final Project
+   
+   Filename: womenGloves.xsd
+   Author: Chris Benzola
+   Date:   04/28/2019
+-->
+<xsi:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://example.com/womenGloves/ns"
+			targetNamespace="http://example.com/womenGloves/ns">
+    <xsi:element name="womenGloves">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element name="glove" maxOccurs="unbounded" minOccurs="0">
+                    <xsi:complexType>
+                        <xsi:sequence>
+                            <xsi:element type="xsi:string" name="gloveImage"/>
+                            <xsi:element type="xsi:string" name="gloveBrand"/>
+                            <xsi:element type="xsi:string" name="gloveName"/>
+                            <xsi:element type="xsi:string" name="description"/>
+                            <xsi:element type="xsi:string" name="gloveID"/>
+                            <xsi:element type="xsi:float" name="glovePrice"/>
+                        </xsi:sequence>
+                    </xsi:complexType>
+                </xsi:element>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+</xsi:schema>
+

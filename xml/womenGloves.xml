@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+   
+   Final Project
+   
+   Filename: womenGloves.xml
+   Author: Chris Benzola
+   Date:   04/28/2019
+-->
+<?xml-stylesheet type="text/xsl" href="../xsl/womenGloves.xsl" ?>
+<womenGloves xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:SchemaLocation="file:///C:/Users/cbenz/OneDrive/Desktop/XML_Final/schemas/womenGloves.xsd">
+    <glove>
+        <gloveImage>
+            ../images/softball1.jpg
+        </gloveImage>
+        <gloveBrand>Rawlings</gloveBrand>
+        <gloveName>Rawlings Liberty Softball Glove</gloveName>
+        <description>
+           Basket-web forms a closed, deep pocket that is popular for infielders and pitchers
+Conventional back features a wide opening above the wrist.
+        </description>
+        <gloveID>LIB2341</gloveID>
+        <glovePrice>97.75</glovePrice>
+    </glove>
+
+    <glove>
+        <gloveImage>
+            ../images/softball2.jpg
+        </gloveImage>
+        <gloveBrand>Wilson</gloveBrand>
+        <gloveName>Wilson A2000 Softball Glove</gloveName>
+        <description>Sprint out ahead of the team into the outfield with this 2019 Wilson A2000 SuperSkin outfielder's softball glove. Designed with Pro Stock Select leather, this glove is sure to hold up under the heat of the summer and cool of the fall. </description>
+        <gloveID> WTA20RF19T125SS</gloveID>
+        <glovePrice>259.95</glovePrice>
+    </glove>
+
+    <glove>
+        <gloveImage>
+            ../images/softball3.jpg
+        </gloveImage>
+        <gloveBrand>Wilson</gloveBrand>
+        <gloveName>Wilson A360 Softball Glove</gloveName>
+        <description>The smallest of our slowpitch softball gloves, this 13" glove makes it easier to transfer the ball to make a throw. The A360 features a full pigskin palm and web. </description>
+        <gloveID>WTA03RS15-13FR</gloveID>
+        <glovePrice>39.95</glovePrice>
+    </glove>
+
+    <glove>
+        <gloveImage>
+            ../images/softball4.jpg
+        </gloveImage>
+        <gloveBrand>Mizuno</gloveBrand>
+        <gloveName>Mizuno MVP Softball Glove</gloveName>
+        <description>The Mizuno MVP Prime series is Gender Engineered specifically for softball players striving to get to the next level. Featuring Center Pocket Designed Patterns which provide the most versatile break-in possible.  </description>
+        <gloveID>SMGMVP9125</gloveID>
+        <glovePrice>89.95</glovePrice>
+    </glove>
+
+    <glove>
+        <gloveImage>
+            ../images/softball5.jpg
+        </gloveImage>
+        <gloveBrand>Wilson</gloveBrand>
+        <gloveName>Wilson A950 Series Glove</gloveName>
+        <description>Full grain cowhide leather construction expertly broken in and ready for action
+Low profile heel offers added flexibility and opens up the palm and pocket
+Double Palm Construction: Thin, strategically cut piece of leather between the palm liner and outer shell for stability 
+ </description>
+        <gloveID>WTA09RF18D125</gloveID>
+        <glovePrice>89.99</glovePrice>
+    </glove>
+
+    <glove>
+        <gloveImage>
+            ../images/softball6.jpg
+        </gloveImage>
+        <gloveBrand>Easton</gloveBrand>
+        <gloveName>Easton Slate Softball Glove</gloveName>
+        <description>If you love to play defense, you will love playing with the Easton Slate 12.75" Fastpitch Softball Glove. Crafted with durable steerhide leather, this softball glove provides outfielders with the length and durable pocket and web needed to catch and secure balls hit in the gaps, while its smaller hand opening provide a distraction-free, snug fit for enhanced glove control. </description>
+        <gloveID>EASTPO09</gloveID>
+        <glovePrice>69.95</glovePrice>
+    </glove>
+</womenGloves>

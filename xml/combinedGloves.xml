@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+   
+   Final Project
+   
+   Filename: glove.xml
+   Author: Chris Benzola
+   Date:   04/28/2019
+-->
+<?xml-stylesheet type="text/xsl" href="../xsl/combinedGloves.xsl" ?>
+<bas:gloves xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xmlns:bas="http://example.com/combinedGloves/ns"	
+  xsi:SchemaLocation="file:///C:/Users/cbenz/OneDrive/Desktop/XML_Final/schemas/combinedGloveSchema.xsd"><!-- Inclusion of Combined Glove Schema & Namespaces-->
+	
+    <bas:glove>
+        <bas:gloveImage>
+            ../images/heartHide.jpg
+        </bas:gloveImage>
+        <bas:gloveBrand>Rawlings</bas:gloveBrand>
+        <bas:gloveName>Rawlings Heart Of The Hide</bas:gloveName>
+        <bas:description>
+            Needing a game-ready glove? Look no
+            further than the 11.75 inch Rawlings R2G infield
+            glove. This Heart of the Hide model comes in Fransisco
+            Lindor's game day pattern.
+        
+        </bas:description>
+        <bas:gloveID>PRORFL12</bas:gloveID>
+        <bas:glovePrice>259.95</bas:glovePrice>
+    </bas:glove>
+
+    <bas:glove>
+        <bas:gloveImage>
+            ../images/a2k.jpg
+        
+        </bas:gloveImage>
+        <bas:gloveBrand>Wilson</bas:gloveBrand>
+        <bas:gloveName>Wilson A2K</bas:gloveName>
+        <bas:description>Built at 11.75", it's a popular for middle infielders, as well as third baseman, and features a shallow pocket that allows for a longer range and is often broken in with a flattened, flared shape.</bas:description>
+            <bas:gloveID>WTA2KRB181787</bas:gloveID>
+            <bas:glovePrice>359.95</bas:glovePrice>
+        </bas:glove>
+
+    <bas:glove>
+        <bas:gloveImage>
+            ../images/primo.jpg
+        
+        </bas:gloveImage>
+        <bas:gloveBrand>Rawlings</bas:gloveBrand>
+        <bas:gloveName>Rawlings Primo</bas:gloveName>
+        <bas:description>The Rawlings Primo Series combines quality and innovation to produce a new standard in the world of baseball gloves. This finely crafted Primo glove is the ultimate choice for baseball's elite and soon-to-be elite. Primo is truly a masterpiece of design. </bas:description>
+        <bas:gloveID>PRIM0956</bas:gloveID>
+        <bas:glovePrice>399.95</bas:glovePrice>
+    </bas:glove>
+
+    <bas:glove>
+        <bas:gloveImage>
+            ../images/mizuno.jpg
+        
+        </bas:gloveImage>
+        <bas:gloveBrand>Mizuno</bas:gloveBrand>
+        <bas:gloveName>Mizuno Pro Limited Edition</bas:gloveName>
+        <bas:description>Made in Haga, Japan: The glove of choice for over 100 professional ballplayers, each Mizuno Pro LE is meticulously handcrafted by one of the most revered Glove Craftsman in the world—a Mizuno Glove Master. </bas:description>
+        <bas:gloveID>312378</bas:gloveID>
+        <bas:glovePrice>600.00</bas:glovePrice>
+    </bas:glove>
+
+    <bas:glove>
+        <bas:gloveImage>
+            ../images/mizuno2.jpg
+        
+        </bas:gloveImage>
+        <bas:gloveBrand>Mizuno</bas:gloveBrand>
+        <bas:gloveName>Mizuno Prospect Elite Series</bas:gloveName>
+        <bas:description>Mizuno Prospect Select offers the youth player a full grain leather glove, providing the same high end look and feel as the pros for the player looking to take the next step. </bas:description>
+        <bas:gloveID>312568</bas:gloveID>
+        <bas:glovePrice>59.95</bas:glovePrice>
+    </bas:glove>
+
+    <bas:glove>
+        <bas:gloveImage>
+            ../images/cathcher.jpg
+        
+        </bas:gloveImage>
+        <bas:gloveBrand>Wilson</bas:gloveBrand>
+        <bas:gloveName>A2K Catcher's Mitt</bas:gloveName>
+        <bas:description>Get to work behind the plate with the A2K® M1. This model has a Half Moon Web, Dual Welting and Blonde and Copper Pro Stock Select Leather in a durable design and Dri-Lex Lining keeps your hand cool on hot afternoon contests.  step. </bas:description>
+        <bas:gloveID>WTA2KRB19M1</bas:gloveID>
+        <bas:glovePrice>323.96</bas:glovePrice>
+    </bas:glove>
+    <!-- End Baseball Bat Vocabulary -->
+	
+	<!-- Start Of Softball Glove Vocabulary -->
+    <sof:womenGloves xmlns:sof="http://example.com/womenGloves/ns"
+        xsi:SchemaLocation="file:///C:/Users/cbenz/OneDrive/Desktop/XML_Final/schemas/womenGloves.xsd">
+        <sof:glove> <!-- Softball Glove Schema Location & Namespace -->
+            <sof:gloveImage>
+                ../images/softball1.jpg
+            
+            </sof:gloveImage>
+            <sof:gloveBrand>Rawlings</sof:gloveBrand>
+            <sof:gloveName>Rawlings Liberty Softball Glove</sof:gloveName>
+            <sof:description>
+                Basket-web forms a closed, deep pocket that is popular for infielders and pitchers
+                Conventional back features a wide opening above the wrist.
+            
+            </sof:description>
+            <sof:gloveID>LIB2341</sof:gloveID>
+            <sof:glovePrice>97.75</sof:glovePrice>
+        </sof:glove>
+
+        <sof:glove>
+            <sof:gloveImage>
+                ../images/softball2.jpg
+            
+            </sof:gloveImage>
+            <sof:gloveBrand>Wilson</sof:gloveBrand>
+            <sof:gloveName>Wilson A2000 Softball Glove</sof:gloveName>
+            <sof:description>Sprint out ahead of the team into the outfield with this 2019 Wilson A2000 SuperSkin outfielder's softball glove. Designed with Pro Stock Select leather, this glove is sure to hold up under the heat of the summer and cool of the fall. </sof:description>
+            <sof:gloveID> WTA20RF19T125SS</sof:gloveID>
+            <sof:glovePrice>259.95</sof:glovePrice>
+        </sof:glove>
+
+        <sof:glove>
+            <sof:gloveImage>
+                ../images/softball3.jpg
+            
+            </sof:gloveImage>
+            <sof:gloveBrand>Wilson</sof:gloveBrand>
+            <sof:gloveName>Wilson A360 Softball Glove</sof:gloveName>
+            <sof:description>The smallest of our slowpitch softball gloves, this 13" glove makes it easier to transfer the ball to make a throw. The A360 features a full pigskin palm and web. </sof:description>
+            <sof:gloveID>WTA03RS15-13FR</sof:gloveID>
+            <sof:glovePrice>39.95</sof:glovePrice>
+        </sof:glove>
+
+        <sof:glove>
+            <sof:gloveImage>
+                ../images/softball4.jpg
+            
+            </sof:gloveImage>
+            <sof:gloveBrand>Mizuno</sof:gloveBrand>
+            <sof:gloveName>Mizuno MVP Softball Glove</sof:gloveName>
+            <sof:description>The Mizuno MVP Prime series is Gender Engineered specifically for softball players striving to get to the next level. Featuring Center Pocket Designed Patterns which provide the most versatile break-in possible.  </sof:description>
+            <sof:gloveID>SMGMVP9125</sof:gloveID>
+            <sof:glovePrice>89.95</sof:glovePrice>
+        </sof:glove>
+
+        <sof:glove>
+            <sof:gloveImage>
+                ../images/softball5.jpg
+            
+            </sof:gloveImage>
+            <sof:gloveBrand>Wilson</sof:gloveBrand>
+            <sof:gloveName>Wilson A950 Series Glove</sof:gloveName>
+            <sof:description>
+                Full grain cowhide leather construction expertly broken in and ready for action
+                Low profile heel offers added flexibility and opens up the palm and pocket
+                Double Palm Construction: Thin, strategically cut piece of leather between the palm liner and outer shell for stability
+            
+            </sof:description>
+            <sof:gloveID>WTA09RF18D125</sof:gloveID>
+            <sof:glovePrice>89.99</sof:glovePrice>
+        </sof:glove>
+
+        <sof:glove>
+            <sof:gloveImage>
+                ../images/softball6.jpg
+            
+            </sof:gloveImage>
+            <sof:gloveBrand>Easton</sof:gloveBrand>
+            <sof:gloveName>Easton Slate Softball Glove</sof:gloveName>
+            <sof:description>If you love to play defense, you will love playing with the Easton Slate 12.75" Fastpitch Softball Glove. Crafted with durable steerhide leather, this softball glove provides outfielders with the length and durable pocket and web needed to catch and secure balls hit in the gaps, while its smaller hand opening provide a distraction-free, snug fit for enhanced glove control. </sof:description>
+            <sof:gloveID>EASTPO09</sof:gloveID>
+            <sof:glovePrice>69.95</sof:glovePrice>
+        </sof:glove>
+    </sof:womenGloves>
+</bas:gloves>

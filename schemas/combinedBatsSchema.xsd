@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+   
+   Final Project
+   
+   Filename: combinedBatsSchema.xsd
+   Author: Chris Benzola
+   Date:   04/28/2019
+-->
+
+<!-- Declaration of schema and namespaces -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://example.com/combinedGloves/ns" 
+           targetNamespace="http://example.com/combinedGloves/ns"
+           xmlns:woo="http://example.com/woodBats/ns" 
+           attributeFormDefault="unqualified" elementFormDefault="qualified">
+    
+	<!-- Inclusion of woodBats namespace and schema -->
+    <xs:import namespace="http://example.com/woodBats/ns" 
+               schemaLocation="woodSchema.xsd" />
+    
+	
+<xs:element name="batImage" type="xs:string"/>
+<xs:element name="batBrand" type="xs:string"/>
+<xs:element name="batName" type="xs:string"/>
+<xs:element name="description" type="xs:string"/>
+<xs:element name="batID" type="xs:string"/>
+<xs:element name="batPrice" type="xs:float"/>
+<xs:element name="bat">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="batImage"/>
+            <xs:element ref="batBrand"/>
+            <xs:element ref="batName"/>
+            <xs:element ref="description"/>
+            <xs:element ref="batID"/>
+            <xs:element ref="batPrice"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+<xs:element name="metalBats">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="bat" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+<xs:element name="baseballBats">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="metalBats"/>
+            <xs:element ref="woo:woodBats" /> <!-- woodBats element -->
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

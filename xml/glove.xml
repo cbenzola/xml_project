@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+   
+   Final Project
+   
+   Filename: baseballBats.xml
+   Author: Chris Benzola
+   Date:   04/28/2019
+-->
+
+
+<?xml-stylesheet type="text/xsl" href="../xsl/glove.xsl" ?>
+<gloves xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:SchemaLocation="file:///C:/Users/cbenz/OneDrive/Desktop/XML_Final/schemas/gloveSchema.xsd">
+    <glove>
+    <gloveImage>
+        ../images/heartHide.jpg
+    </gloveImage>
+		<gloveBrand>Rawlings</gloveBrand>
+    <gloveName>Rawlings Heart Of The Hide</gloveName>
+        <description>Needing a game-ready glove? Look no 
+            further than the 11.75 inch Rawlings R2G infield 
+            glove. This Heart of the Hide model comes in Fransisco 
+            Lindor's game day pattern.</description>
+    <gloveID>PRORFL12</gloveID>
+    <glovePrice>259.95</glovePrice>
+    </glove>
+	
+	 <glove>
+    <gloveImage>
+        ../images/a2k.jpg
+    </gloveImage>
+		 <gloveBrand>Wilson</gloveBrand>
+    <gloveName>Wilson A2K</gloveName>
+        <description>Built at 11.75", it's a popular for middle infielders, as well as third baseman, and features a shallow pocket that allows for a longer range and is often broken in with a flattened, flared shape.</description>
+    <gloveID>WTA2KRB181787</gloveID>
+    <glovePrice>359.95</glovePrice>
+    </glove>
+	
+	<glove>
+    <gloveImage>
+        ../images/primo.jpg
+    </gloveImage>
+		<gloveBrand>Rawlings</gloveBrand>
+    <gloveName>Rawlings Primo</gloveName>
+        <description>The Rawlings Primo Series combines quality and innovation to produce a new standard in the world of baseball gloves. This finely crafted Primo glove is the ultimate choice for baseball's elite and soon-to-be elite. Primo is truly a masterpiece of design. </description>
+    <gloveID>PRIM0956</gloveID>
+    <glovePrice>399.95</glovePrice>
+    </glove>
+	
+	<glove>
+    <gloveImage>
+        ../images/mizuno.jpg
+    </gloveImage>
+		<gloveBrand>Mizuno</gloveBrand>
+    <gloveName>Mizuno Pro Limited Edition</gloveName>
+        <description>Made in Haga, Japan: The glove of choice for over 100 professional ballplayers, each Mizuno Pro LE is meticulously handcrafted by one of the most revered Glove Craftsman in the world—a Mizuno Glove Master. </description>
+    <gloveID>312378</gloveID>
+    <glovePrice>600.00</glovePrice>
+    </glove>
+	
+	<glove>
+    <gloveImage>
+        ../images/mizuno2.jpg
+    </gloveImage>
+		<gloveBrand>Mizuno</gloveBrand>
+    <gloveName>Mizuno Prospect Elite Series</gloveName>
+        <description>Mizuno Prospect Select offers the youth player a full grain leather glove, providing the same high end look and feel as the pros for the player looking to take the next step. </description>
+    <gloveID>312568</gloveID>
+    <glovePrice>59.95</glovePrice>
+    </glove>
+	
+	<glove>
+    <gloveImage>
+        ../images/cathcher.jpg
+    </gloveImage>
+		<gloveBrand>Wilson</gloveBrand>
+    <gloveName>A2K Catcher's Mitt</gloveName>
+        <description>Get to work behind the plate with the A2K® M1. This model has a Half Moon Web, Dual Welting and Blonde and Copper Pro Stock Select Leather in a durable design and Dri-Lex Lining keeps your hand cool on hot afternoon contests.  step. </description>
+    <gloveID>WTA2KRB19M1</gloveID>
+    <glovePrice>323.96</glovePrice>
+    </glove>
+</gloves>

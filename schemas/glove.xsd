@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+            xmlns="http://example.com/glove/ns"
+			targetNamespace="http://example.com/glove/ns">
+
+    <xs:element name="gloves">
+        <xs:complexType  >
+            <xs:sequence >
+                <xs:element ref="glove" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

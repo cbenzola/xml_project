@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+   
+   Final Project
+   
+   Filename: baseballBats.xml
+   Author: Chris Benzola
+   Date:   04/28/2019
+-->
+
+
+<?xml-stylesheet type="text/xsl" href="../xsl/baseballBats.xsl" ?> <!-- Inclusion of stylesheet -->
+<baseballBats xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+             xsi:schemaLocation="http://example.com/baseballBats/ns file:///C:/Users/cbenz/OneDrive/Desktop/XML_Final/schemas/baseballSchema.xsd">
+    
+	<!-- Information for metal bats -->
+	<metalBats>
+    <bat>
+    <batImage>
+        ../images/baseball1.jpg
+    </batImage>
+		<batBrand>Easton</batBrand>
+    <batName>Easton Stealth</batName>
+        <description>Massive high-performance hitting area, made possible by patented IMX (Integrated Matrix Technology) 
+            optimizing composite design, materials and process for maximum performance. 
+            Flex-rated 75 handle provides increased handle flex through Easton's 
+            patented Opti-Flex CNT composite handle technology. </description>
+    <batID>EAST4562</batID>
+    <batPrice>259.95</batPrice>
+    </bat>
+	
+	 <bat>
+    <batImage>
+        ../images/baseball2.jpg
+    </batImage>
+		 <batBrand>TPX</batBrand>
+    <batName>TPX Stealth</batName>
+        <description>Louisville Slugger continues to show that they are firm believers in the one piece bat by producing this TPX EXOGRID 2. The one piece design of this stick allows for stiffness in the bat making this the type of bat that a power hitter would use.</description>
+    <batID>AGHEST72</batID>
+    <batPrice>299.95</batPrice>
+    </bat>
+	
+	<bat>
+    <batImage>
+        ../images/baseball3.jpg
+    </batImage>
+		<batBrand>DeMarini</batBrand>
+    <batName>DeMarini Gattaca</batName>
+        <description>We set out to make a BBCOR bat that creates more distance and helps you hit at the optimal launch angle more consistently. We accomplished that with Gattaca, our most technologically advanced bat ever, and the first ever bat with separate designs for left and right-handed hitters. </description>
+    <batID>DEMPOI6F</batID>
+    <batPrice>399.95</batPrice>
+    </bat>
+	
+	<bat>
+    <batImage>
+        ../images/baseball4.jpg
+    </batImage>
+		<batBrand>Marucci</batBrand>
+    <batName>Marucci CAT8</batName>
+        <description>The CAT8 -10 is a USSSA certified, one-piece alloy bat built with AZ105 super strength aluminum alloy meaning thinner walls, higher response rate, and better durability. The precision-balanced barrel features a ring-free multi-variable wall design that creates an expanded sweet spot,</description>
+    <batID>2145TH</batID>
+    <batPrice>229.99</batPrice>
+    </bat>
+	
+	<bat>
+    <batImage>
+        ../images/baseball5.jpg
+    </batImage>
+		<batBrand>DeMarini</batBrand>
+    <batName>DeMarini Voodoo</batName>
+        <description>This end loaded Voodoo Insane BBCOR Bat brings the boom with a massive barrel size to drive the ball to the wall. With an all-new X14 Aluminum Alloy Barrel, this monster is hotter than ever! The X14 Aluminum Alloy allowed DeMarini to distribute the weight in different ways than previous years with the Voodoo. </description>
+    <batID>VOOP14GH</batID>
+    <batPrice>299.99</batPrice>
+    </bat>
+	
+	<bat>
+    <batImage>
+        ../images/baseball6.jpg
+    </batImage>
+		<batBrand>Louisville</batBrand>
+    <batName>Louisville Slugger</batName>
+        <description>Developed to meet the highest demands of elite players, the Louisville Slugger® team introduces the 2019 Meta Prime® BBCOR Bat to be the gold standard. Constructed with a three-piece design and newly developed connection system to maximize performance and sound off the barrel, the Meta Prime® is engineered for the game’s best players. </description>
+    <batID>VI09PODF</batID>
+    <batPrice>500.00</batPrice>
+    </bat>
+		</metalBats>
+</baseballBats>

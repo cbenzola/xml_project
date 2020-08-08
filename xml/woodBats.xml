@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+   
+   Final Project
+   
+   Filename: woodBats.xml
+   Author: Chris Benzola
+   Date:   04/28/2019
+-->
+
+<?xml-stylesheet type="text/xsl" href="../xsl/woodBats.xsl" ?>
+<!-- include woodBat stylesheet -->
+
+<!-- Start of woodBats.xml -->
+<woodBats xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/woodBats/ns file:///C:/Users/cbenz/OneDrive/Desktop/XML_Final/schemas/woodSchema.xsd"><!-- Inclusion of Schema -->
+  
+  <bat>
+    <batImage>../images/wood1.jpg</batImage>
+    <batBrand>Easton</batBrand>
+    <batName>Mako Ash Easton Wood Bat</batName>
+    <description>Pro Grade Ash -Guaranteed -3 weight differential -15/16" tapered handle -Cupped end WOOD BAT POLICY: WOOD BATS CARRY NO WARRANTY OR IMPLIED GUARANTEE AGAINST BREAKAGE.</description>
+    <batID>MAK976G</batID>
+    <batPrice>35.90</batPrice>
+  </bat>
+  <bat>
+    <batImage>../images/wood2.jpg</batImage>
+    <batBrand>Louisville</batBrand>
+    <batName>Louisville Series 3 Ash Bat</batName>
+    <description>Louisville Slugger's adult wood bats are pulled from their original production line for some minor flaw that will not affect the bat's performance.</description>
+    <batID>WTLW3AMIXB16</batID>
+    <batPrice>29.95</batPrice>
+  </bat>
+  <bat>
+    <batImage>../images/wood3.jpg</batImage>
+    <batBrand>Marucci</batBrand>
+    <batName>Marucci Lindy Wood Bat</batName>
+    <description>The Marucci LINDY12 Pro Model is the ultimate contact hitter's wood bat. Inspired by Marucci partner Francisco Lindor.</description>
+    <batID>DEMPOI6F</batID>
+    <batPrice>399.95</batPrice>
+  </bat>
+  <bat>
+    <batImage>../images/wood4.jpg</batImage>
+    <batBrand>Sam Bats</batBrand>
+    <batName>Sam Bats PS2 Maple</batName>
+    <description>The SAM BAT PS2 boasts their thinnest handle that flares moderately to the knob to give players a firm grip.  The distinctive regular barrel has a long taper through the handle, which helps to extend the sweet spot.</description>
+    <batID>4737</batID>
+    <batPrice>89.95</batPrice>
+  </bat>
+  <bat>
+    <batImage>../images/wood5.jpg</batImage>
+    <batBrand>Marucci</batBrand>
+    <batName>Marucci AP5 Pro Model</batName>
+    <description>Professionally inspired by Marucci® Player Advisory Board Member, Albert Pujols, for the youth baseball player, the AP5 Pro Model Bat is bone-rubbed for maximum wood density and durability.</description>
+    <batID>AP5YB</batID>
+    <batPrice>79.99</batPrice>
+  </bat>
+  <bat>
+    <batImage>../images/wood6.jpg</batImage>
+    <batBrand>Rawlings</batBrand>
+    <batName>Rawlings Wood Bat</batName>
+    <description>Barrel: 2 1/2" - Handle: 31/32" - Length: 34" - Level: Adult - Spec: Center line on end of barrel is blank, ideal for signatures.</description>
+    <batID>232APSIG-34</batID>
+    <batPrice>49.95</batPrice>
+  </bat>
+</woodBats>

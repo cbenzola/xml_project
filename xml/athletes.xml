@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+   
+   Final Project
+   
+   Filename: athletes.xml
+   Author: Chris Benzola
+   Date:   04/28/2019
+-->
+
+
+
+<?xml-stylesheet type="text/xsl" href="../xsl/athletes.xsl" ?> <!-- include athlete stylesheet -->
+
+<athletes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:noNamespaceSchemaLocation="file:///C:/Users/cbenz/OneDrive/Desktop/XML_Final/schemas/athleteSchema.xsd"> <!-- athlete schema -->
+	
+<athlete>
+	<name>Aaron Judge</name>
+	<team>New York Yankees</team>
+	<image>../images/aaronJudge.jpg</image>
+	<!-- Information For Stat Table -->
+	<year>2019</year>
+	<atBats>73</atBats>
+		<hits>21</hits>
+		<homeruns>5</homeruns>
+		<average>.288</average>
+		<onbase>.404</onbase>
+		<war>1.2</war>
+	
+	</athlete>
+	
+	<athlete>
+	<name>Mike Trout</name>
+		<!-- Information For Stat Table -->
+		<atBats>103</atBats>
+	<team>LA Angels</team>
+	<image>../images/trout.jpg</image>
+	
+	<year>2019</year>
+		<hits>30</hits>
+		<homeruns>6</homeruns>
+		<average>.303</average>
+		<onbase>.492</onbase>
+		<war>2.5</war>
+	
+	</athlete>
+	
+	<athlete>
+	<name>Joey Votto</name>
+	<team>Cincinatti Reds</team>
+	<image>../images/votto.jpg</image>
+	<!-- Information For Stat Table -->
+	<year>2019</year>
+		<atBats>119</atBats>
+		<hits>26</hits>
+		<homeruns>3</homeruns>
+		<average>.235</average>
+		<onbase>.342</onbase>
+		<war>0.2</war>
+	
+	</athlete>
+	
+	<athlete>
+	<name>Mookie Betts</name>
+	<team>Boston Red Sox</team>
+	<image>../images/betts.jpg</image>
+	<!-- Information For Stat Table -->
+	<year>2019</year>
+		<atBats>134</atBats>
+		<hits>39</hits>
+		<homeruns>6</homeruns>
+		<average>.297</average>
+		<onbase>.399</onbase>
+		<war>1.5</war>
+	
+	</athlete>
+	
+	
+</athletes>
+

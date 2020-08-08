@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Studio 2019 (https://www.liquid-technologies.com) -->
+<!--
+   
+   Final Project
+   
+   Filename: woodSchema.xsi:d
+   Author: Chris Benzola
+   Date:   04/28/2019
+-->
+
+<xsi:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+            
+           xmlns="http://example.com/woodBats/ns"
+			targetNamespace="http://example.com/woodBats/ns">
+    
+    
+    <xsi:element name="batImage" type="xsi:string"/>
+    <xsi:element name="batBrand" type="xsi:string"/>
+    <xsi:element name="batName" type="xsi:string"/>
+    <xsi:element name="description" type="xsi:string"/>
+    <xsi:element name="batID" type="xsi:string"/>
+    <xsi:element name="batPrice" type="xsi:float"/>
+    <xsi:element name="bat">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="batImage"/>
+                <xsi:element ref="batBrand"/>
+                <xsi:element ref="batName"/>
+                <xsi:element ref="description"/>
+                <xsi:element ref="batID"/>
+                <xsi:element ref="batPrice"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="woodBats">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="bat" maxOccurs="unbounded" minOccurs="0"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+</xsi:schema>

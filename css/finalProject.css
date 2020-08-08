@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+   
+   Final Project
+   
+   Filename: finalProject.css
+   Author: Chris Benzola
+   Date:   04/28/2019
+*/
+
+
+body{
+	background-color: #f0f0f0 !important;
+}
+
+html{
+	font-size:14px !important;
+}
+
+
+/* CSS for Tables */
+
+.stats{
+	width:100%;
+}
+
+.stats > th, td {
+  text-align: middle;
+  padding: 5px;
+border: 1px solid #ddd;
+			}
+
+.stats > tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+			tfoot{
+				background-color: #4CAF50;
+  color: white;
+			}
+			tr:hover{
+				background-color: #4CAF50;
+			}
+/* End Tables */
+
+
+/* Style For Shop Button On index.html*/
+.shop{
+	
+  
+  padding:6px;
+ 
+  background: red;
+  font-size: 17px;
+	color: white;
+  border: outset;
+	border-radius: 10px;
+  cursor: pointer;
+	position: relative;
+	left:25px;
+	font-family:bebas;
+	margin-bottom: 10px;
+	
+	
+}
+	
+button:hover{
+	background-color: #6B6B6B;
+	
+}
+
+/* CSS For Item Images and Descriptions */
+.gloveImg{
+	width: 200px;
+	height: 150px;
+}
+
+#glove_list{
+	margin: 10px;
+}
+
+.gloveInfo{
+	text-align: center;
+	font-family: bebas;
+}
+
+.gloveInfo > p{
+	width:310px;
+	padding:10px;
+}
+
+.gloveInfo > h3{
+	border-bottom: solid 1px black;
+}
+.glove_item{
+	 padding: 10px;
+    margin-bottom: 15px;
+    
+	border-right: .05em solid red;
+}
+
+.pageHeading{
+	text-align: center;
+}
+
+/* CSS For Glove and Bat SubMenu */
+.subMenu{
+    position: relative;
+    left:30px;
+	top:20px;
+    border-width: medium;
+    background-color: #e8f4f6;
+    width: 490px;
+    color: black;
+    height: 60px;
+    text-align: center;
+    display: block;
+    font-family: bebas;
+    margin-left: 200px;
+	margin-bottom: 50px;
+	font-size: 18px;
+	
+}
+
+
+
+.horizontal-list li{
+	list-style: none;
+	vertical-align: middle;
+	display: inline-block;
+	
+	position: relative;
+	top: 15px;
+}
+
+.horizontal-list a{
+	color: black;
+	
+}
+
+#gloves_nav_type_men li, #gloves_nav_type_women li {
+    display: inline-block;
+    margin: 0 0.98em;
+	position: relative;
+	
+    
+	
+}
+
+/* CSS For Buttons ON Glove And Bat Page */
+.stat-view{
+	background-color: transparent;
+cursor: pointer;
+	border: inset;
+text-transform: capitalize;
+	color: black;
+	
+	
+}
+
+.stat-view:active{
+	background-color: #f1f1f1;
+}
+
+/* CSS For player Images and Names */
+.playerImg{
+	width: 400px;
+	height: 250px;
+}
+
+.player-name{
+    text-align: center;
+    font-weight: 400;
+    font-family: bebas;
+    font-size: 18px;
+    border-bottom: 1px solid #000000;
+    width:400px;
+	position: relative;
+	left:300px;
+	margin-bottom: 10px;
+}
+

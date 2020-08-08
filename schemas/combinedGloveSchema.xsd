@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+   
+   Final Project
+   
+   Filename: combinedGloveSchema.xsd
+   Author: Chris Benzola
+   Date:   04/28/2019
+-->
+
+
+
+
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://example.com/combinedGloves/ns" 
+           targetNamespace="http://example.com/combinedGloves/ns"
+           xmlns:sof="http://example.com/womenGloves/ns" 
+           attributeFormDefault="unqualified" elementFormDefault="qualified">
+	
+
+    <!-- womenGloves Schema Import -->
+    <xs:import namespace="http://example.com/womenGloves/ns" 
+               schemaLocation="womenGloves.xsd" />
+	
+    
+        <xs:element name="gloveImage" type="xs:string"/>
+        <xs:element name="gloveBrand" type="xs:string"/>
+        <xs:element name="gloveName" type="xs:string"/>
+        <xs:element name="description" type="xs:string"/>
+        <xs:element name="gloveID" type="xs:string"/>
+        <xs:element name="glovePrice" type="xs:float"/>
+        <xs:element name="glove">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element ref="gloveImage"/>
+                    <xs:element ref="gloveBrand"/>
+                    <xs:element ref="gloveName"/>
+                    <xs:element ref="description"/>
+                    <xs:element ref="gloveID"/>
+                    <xs:element ref="glovePrice"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="gloves">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element ref="glove" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element ref="sof:womenGloves" /> <!-- womenGloves Element -->
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+    </xs:schema>
+

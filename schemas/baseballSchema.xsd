@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+   
+   Final Project
+   
+   Filename: baseballSchema.xsd
+   Author: Chris Benzola
+   Date:   04/28/2019
+-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" 
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://example.com/baseballBats/ns"
+			targetNamespace="http://example.com/baseballBats/ns">
+    
+    <xs:element name="batImage" type="xs:string"/>
+    <xs:element name="batBrand" type="xs:string"/>
+    <xs:element name="batName" type="xs:string"/>
+    <xs:element name="description" type="xs:string"/>
+    <xs:element name="batID" type="xs:string"/>
+    <xs:element name="batPrice" type="xs:float"/>
+    <xs:element name="bat">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="batImage"/>
+                <xs:element ref="batBrand"/>
+                <xs:element ref="batName"/>
+                <xs:element ref="description"/>
+                <xs:element ref="batID"/>
+                <xs:element ref="batPrice"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="metalBats">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="bat" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="baseballBats">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metalBats"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
